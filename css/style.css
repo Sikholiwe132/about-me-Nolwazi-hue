@@ -1,0 +1,33 @@
+body {
+    font-family: "Lato";
+    background-color:#EBB25B;
+    color: #F246E5;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Fasthand";
+    font-size: 40pt;
+
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    color: #EBB25B;
+    border: 2px solid black;
+    background-color: #F246E5;
+    text-align: center;
+    padding: 10px;
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio, #hobbies {
+    text-align: center;
+}
+
