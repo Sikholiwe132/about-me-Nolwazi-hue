@@ -8,7 +8,12 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-family: "Fasthand";
     font-size: 40pt;
+    text-align: center;
 
+}
+
+h1 {
+    font-size: 40pt;
 }
 
 header {
@@ -29,5 +34,9 @@ header {
 
 #bio, #hobbies {
     text-align: center;
+}
+
+#hobbies ul li:nth-child(odd) {
+    color: green;
 }
 
