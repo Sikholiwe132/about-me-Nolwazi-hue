@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6 {
 
 h3 {
     margin: 0.1em;
-
+}
 h1 {
     font-size: 40pt;
 }
@@ -49,7 +49,7 @@ section#hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+}
 
 #hobbies ul li:nth-child(odd) {
     color: #F246E5;
@@ -89,7 +89,7 @@ gallery figure {
 
 /*Dropcaps*/
 
-#lit div p:nth-child(3n+1):first-letter {
+#lit div p:first-child:first-letter {
 
     color:blue;
     background-image: radial-gradient(#FFF, #A3721C);
@@ -107,7 +107,7 @@ gallery figure {
 }
 
 
-
+/* tablet size */
 @media screen and (min-width: 60em) {
     figure {
         display: grid;
@@ -116,10 +116,41 @@ gallery figure {
     
     figcaption {
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         font-size: 2rem;
         margin-left: 1rem;
     }
+
+    figure img {
+        width:100%;
+    }
     
+    #lit div {
+        max-width: 100%;
+        columns: 20rem;
+    }
+    }
+    /* large screen size */
+
+    @media screen and (min-width: 100em) {
+
+        #gallery {
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+hr {
+    display: none;
+
+}
+
+#gallery h4 {
+    grid-column: 1/-1;
+
+}       
+
+figure {
+    display: block;
+}
+
     }
