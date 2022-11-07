@@ -183,6 +183,7 @@ h6 {
     padding: 1rem;
     max-width:600px;
     margin: 2rem auto;
+    
 }
 
 fieldset {
@@ -190,6 +191,7 @@ fieldset {
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 2rem;
+    box-shadow: 5px 5px #F246E5;
 
 }
 
