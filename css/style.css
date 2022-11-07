@@ -172,4 +172,10 @@ h6 {
     margin: 0.8em;
 }
 
+/* Contact Form */
+
+#formElements {
+ display:grid;
+}
+
     }
